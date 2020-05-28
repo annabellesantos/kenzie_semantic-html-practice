@@ -1,0 +1,73 @@
+/* Needs examples of the following:
+1. srcset attribute using <picture> and <source> elements
+2. width: 100%;
+3. Both object-fit: contain; and object-fit: cover;
+U4. se of both fixed and responsive height on images via viewport units
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcoral;
+}
+
+header img,
+footer img {
+  width: 100%;
+}
+
+.pfp img {
+  width: 30vw;
+  border-radius: 50%;
+}
+
+main {
+  text-align: center;
+}
+
+.center {
+}
+
+.center2 {
+  /*   margin: auto; */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  /*   justify-content: center; */
+}
+
+footer img {
+  object-fit: cover;
+  width: 300px;
+}
+
+.card1 {
+}
+
+/* Responsive sizing for DESKTOP view (900px+) */
+@media only screen and (min-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  footer img {
+    /*     height: 400px;
+    width: 400px; */
+  }
+}

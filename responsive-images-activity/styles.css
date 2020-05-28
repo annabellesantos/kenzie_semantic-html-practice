@@ -1,0 +1,38 @@
+.hero-pic {
+  width: 300px;
+  height: 300px;
+}
+
+/* img {
+  width: 500px;
+} */
+
+/* .hero-pic {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+}
+ */
+header {
+}
+
+main {
+  margin: auto;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 200px;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 50%;
+}
